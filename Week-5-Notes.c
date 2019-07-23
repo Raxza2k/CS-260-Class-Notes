@@ -66,6 +66,37 @@ void afterRight(Node n) { pfintf(")")};
             data will be necessary.
 
         Adelson-Velskii and Landis Tree: (AVL Tree)
+        EX:
+
+                                  3
+                                2 |    8
+                              1 |    5 | 9
+                                   4 | 6
+
+        Review how determine |Ln - Rn| <= 1, and determining if a tree is
+        balanced. d = difference = |Ln - Rn|
+        Steps:
+          1) Determine if the tree is balanced or unbalanced.
+          2) Determine which nodes are unbalanced.
 
 
+        So you found an unbalanced tree, what do you do?()
+        Rotations  //"Rotating" position to balance the tree.
+
+               100                              120                            100
+          50    |       120              100     |       130               50       110
+                 110     |  130   =>   50 | 110                    =>                  120
+                  |  115                     |  115                                 115  130
+
+
+                     110
+       =>        100     120          Which is a balanced tree.
+               50     115   130
+
+              1)Rotate low, moving upfrom the leaves of the tree.
+              EX:
+
+                1                                           2
+                  2        => roation about root  =>      1   3
+                    3
 */
