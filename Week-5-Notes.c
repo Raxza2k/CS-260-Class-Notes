@@ -47,3 +47,25 @@ void afterRight(Node n) { pfintf(")")};
 
       Time complexity of this process is O(n).
 */
+
+
+/*
+///////////////////////   AVL Trees     ///////////////////////////////////////
+
+        unbalanced BST -> O(n)
+        Height balanced trees:
+                  N
+                L | R
+
+
+            |Ln - Rn| <= 1
+            This causes the worst time complexity possible is 44% of O(log(n))
+                -> O(1.44log(n)) -> O(log(n)).
+            With this concpet in use, the tree must always be blanced to gain
+            from this effect. So resuffling the tree when adding and deleting
+            data will be necessary.
+
+        Adelson-Velskii and Landis Tree: (AVL Tree)
+
+
+*/
