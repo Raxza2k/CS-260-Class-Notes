@@ -100,3 +100,30 @@ void afterRight(Node n) { pfintf(")")};
                   2        => roation about root  =>      1   3
                     3
 */
+
+//                                 7/24/19
+////////////////////////////////////////////////////////////////////////////////
+/*
+    Review: Yesterday we learned.
+      1) Tree construction
+        - Binary Search Trees
+      2) Longest path between 2 nodes.
+      3) Nomenclature
+        - Root node
+        -Internal nodes
+        -Leaf nodes
+        -height
+        -depth
+
+    AVL trees
+      - These are height balanced trees, to simplify and speed up operations
+      performed on them.
+      |Ln - Rn| <= 1
+      -> O(1.44log(n)) -> O(log(n)).
+      *Practice the height determination and rotation operations.
+
+    Rotations:
+      "How do we fix an unbalanced tree?" -> rotations.
+      
+
+*/
