@@ -147,3 +147,34 @@ void countSort(int data[], int m, int max){
         }
      }
 }
+
+
+/*
+                           Running sort
+   There is yet another extra credit oppurtunity.
+   This is the Radix countSort
+
+   Sort speed:
+   radix Sort
+
+
+   Extra credit:
+      selection Sort
+      merge Sort
+      bubble Sort
+      tree Sort
+      radix Sort
+      country Sort
+      insertion Sort
+         Provide for each:
+            -Pseudocode
+            -Time complexity
+            -Benchmark n^15 - 2^20
+                       32768 - 1048576
+   No language restriction, run in what ever language you want.
+   More credit if you actually implement sort. For 3%
+   Combine this with the k-d tree research, and you could potentially get 10%
+   of your overall grade.
+
+
+*/
